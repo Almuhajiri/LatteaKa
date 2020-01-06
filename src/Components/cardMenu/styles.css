@@ -1,0 +1,27 @@
+.badge-menu {
+    background-color: #FD8F5F;
+    letter-spacing: 0.04em;
+    border-radius: 16px;
+    font-weight: normal;
+    text-align: center;
+    font-style: normal;
+    line-height: 19px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 17px;
+    /* height: 100%;
+    width: 100%; */
+}
+
+.cardmenu-img {
+    height: 50%;
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .badge-menu {
+    text-align: center;
+    line-height: 12px;
+    font-size: 9px;
+    }
+}

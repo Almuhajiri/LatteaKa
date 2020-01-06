@@ -1,0 +1,70 @@
+.container-poster {
+    /* margin-bottom: 3rem; */
+}
+
+.poster-poster {
+    padding: 3rem 1rem;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #3B3C6E;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #6B6D7F;
+}
+
+.see-more {
+    text-decoration: none !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #FD8F5F;
+}
+
+.see-more:hover {
+    /* color: #DB612C; */
+    color: #FD8F5F;
+
+}
+
+.text-brand {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FD8F5F;    
+}
+
+.more-button {
+    background-image: url('../../assets/svg/arrow-right.svg');
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+}

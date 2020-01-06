@@ -1,0 +1,13 @@
+.container-gallery {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.container-img-gallery {
+    padding: 5rem 0;
+}
+
+.img-gallery {
+    border-radius: 15px;
+    background-image: rgba(0, 0, 0, 1);
+}
