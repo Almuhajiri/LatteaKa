@@ -6,11 +6,9 @@ LatteaKa
 
 This project is for LatteaKa Thai Tea Franchise
 
-### Installing
+### Running App
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Open your command prompt and run:
 
 ```
 npm i
