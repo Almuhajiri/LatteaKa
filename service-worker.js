@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LatteaKa/precache-manifest.7edef8782fd933d0ced4333a912df7a5.js"
+  "/LatteaKa/precache-manifest.ed579716378747d867a2c754aa4b3ded.js"
 );
 
 self.addEventListener('message', (event) => {
