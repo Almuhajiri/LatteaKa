@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { animateScroll as scroll, scroller } from 'react-scroll'
 import $ from 'jquery'
 
 import './styles.css'
@@ -15,7 +17,16 @@ const backgroundHeader = {
 }
 
 export default class Header extends React.Component {
+    scrollTo() {
+        scroller.scrollTo('scroll-to-element', {
+            duration: 800,
+            delay: 0,
+            smooth: 'easeInOutQuart'
+        })
+    }
+
     render() {
+
 
         $(document).ready(function () {
 
@@ -38,7 +49,7 @@ export default class Header extends React.Component {
                 <Row>
                     <Col md={{ size: 4, offset: 4 }} className="d-block text-center header-container">
                         <h1 className="header-title wow animated fadeInUp">Events where modern technology meets exprience</h1>
-                        <Button title={'Learn More'} />
+                        <a onClick={() => scroll.scrollTo(400)}><Button title={'Learn More'} /></a>
                     </Col>
                 </Row>
             </Container>

@@ -31,7 +31,7 @@ const Component = (props) => {
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto align-items-center left-left" navbar>
                         <NavItem className="ml-4 mr-4">
-                            <NavLink className="navbar-item" href="../../Pages/LandingPage">Home</NavLink>
+                            <NavLink className="navbar-item" href="/">Home</NavLink>
                         </NavItem>
                         <NavItem className="ml-4 mr-4">
                             <NavLink className="navbar-item" href="/aboutUs">About Us</NavLink>

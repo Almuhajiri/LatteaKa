@@ -1,11 +1,22 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { animateScroll as scroll, scroller } from 'react-scroll'
 
 import './styles.css'
 import Button from '../../Components/button'
 
 export default class HeaderLandings extends React.Component {
+    scrollTo() {
+        scroller.scrollTo('scroll-to-element', {
+            duration: 800,
+            delay: 0,
+            smooth: 'easeInOutQuad'
+        })
+    }
+
     render() {
+
         return (
             <Container fluid={true} className="container-header">
                 <Row>
@@ -22,7 +33,7 @@ export default class HeaderLandings extends React.Component {
                                     </div>
                                     <Row>
                                         <Col md="auto d-block text-center">
-                                            <Button title="Learn More"></Button>
+                                            <a onClick={() => scroll.scrollTo(650)}> <Button title="Learn More"></Button> </a>
                                         </Col>
                                     </Row>
                                 </Col>

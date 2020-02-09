@@ -79,7 +79,7 @@ export default class Franchise extends React.Component {
                         </Container>
                     </Row>
                     <Col className="d-block text-center">
-                        <Button title={'Learn More'} />
+                        <a href="/franchise"><Button title={'Learn More'} /></a>
                     </Col>
                 </Container>
             </Fragment>

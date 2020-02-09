@@ -10,7 +10,7 @@ import ArrowRight from '../../assets/svg/arrow-right.svg'
 export default class Poster extends React.Component {
     render() {
         return (
-            <Container className="container-poster">
+            <Container id="poster" className="container-poster">
                 <Row className="d-flex flex-row-reverse">
                     <Col md="6" className="animated fadeInRight">
                         <img src={IMAGES.poster} alt="" className="img-fluid mb-4" />
@@ -22,7 +22,7 @@ export default class Poster extends React.Component {
                             </Col>
                         </Row>
                         <p className="subtitle">We brew only the finest leaves and beans to ensure delicious cups of tea and freshly roasted speciality coffee. And every beverage is prepared right in front of you, We brew only the finest leaves and beans to ensure delicious cups of tea and freshly roasted speciality coffee.</p>
-                        <a href="#" className="see-more">see more<img className="ml-4" src={ArrowRight} alt=""></img></a>
+                        <a href="/aboutUs" className="see-more">see more<img className="ml-4" src={ArrowRight} alt=""></img></a>
                     </Col>
                 </Row>
             </Container>
