@@ -12,7 +12,26 @@
 }
 
 .navbar-item {
-    color: #6B6D7F !important;
+    color: #ffffff !important;
+}
+
+.navbar-item-active {
+    color: #FD8F5F !important;
+    font-weight: bold;
+}
+
+.navbar-bg-transparent {
+    background-color: transparent;
+    transition: background-color .6s ease 0s;
+}
+
+.navbar-text-blue {
+    color: #3c3d6f !important;
+}
+
+.navbar-bg-blue {
+    background-color: #ffffff;
+    transition: background-color .6s ease 0s;
 }
 
 .navbar-toggler-icon {
@@ -20,6 +39,10 @@
     background-repeat: no-repeat;
     height: 2.5rem;
     width: 2.5rem;
+}
+
+.left-left {
+    margin-right: 6% !important;
 }
 
 @media only screen and (max-width: 768px) {

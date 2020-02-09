@@ -1,0 +1,15 @@
+.about-menu-container {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.about-item-container {
+    padding: 0 10rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .display {
+        display: inline;
+    }
+    
+}

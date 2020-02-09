@@ -1,0 +1,26 @@
+.menu-detail-container {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.card-menu-detail-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.menu-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    color: #3B3C6E;    
+}
+
+@media only screen and (max-width: 768px) {
+    .card-menu-detail-container {
+        display: block;
+        text-align: center;
+    }
+
+}

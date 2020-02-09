@@ -4,7 +4,7 @@
 }
 
 .background-landing-img {
-    background-image: url('../../assets/img/background1.png');
+    background-image: url('../../assets/img/backgroundLanding.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 10%;
@@ -63,7 +63,7 @@
         padding: 2rem 0;
     }
 
-    .text-brand-landing {
+    .md-disappear {
         display: none;
         /* text-align: center; */
     }

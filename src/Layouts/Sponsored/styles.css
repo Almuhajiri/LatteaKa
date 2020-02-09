@@ -1,0 +1,15 @@
+.container-sponsored {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.title-sponsored {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.04em;    
+    color: #FD8F5F;
+    
+}

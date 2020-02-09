@@ -1,14 +1,14 @@
 /* eslint-disable react/no-typos */
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import {Button} from 'reactstrap'
+import { Button } from 'reactstrap'
 
 import './styles.css'
 
 export default class Component extends React.Component {
     render() {
-    const {title} = this.props
-        return(
+        const { title } = this.props
+        return (
             <Fragment>
                 <Button className="button">{title}</Button>
             </Fragment>
@@ -19,7 +19,7 @@ export default class Component extends React.Component {
 Component.PropTypes = {
     title: PropTypes.string.isRequired
 }
-  
+
 Component.defaultProps = {
     title: ''
 }

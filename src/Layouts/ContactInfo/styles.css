@@ -1,0 +1,13 @@
+.contact-container {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.text-contact {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+    color: #3B3C6E;    
+}
