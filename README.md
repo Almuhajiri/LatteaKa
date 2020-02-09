@@ -16,8 +16,6 @@ npm i
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Built With
 
 * [Reactjs](http://reactjs.org) - The web framework used
