@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/LatteaKa/static/css/main.a093377d.chunk.css",
-    "main.js": "/LatteaKa/static/js/main.0a6eedaa.chunk.js",
-    "main.js.map": "/LatteaKa/static/js/main.0a6eedaa.chunk.js.map",
+    "main.css": "/LatteaKa/static/css/main.6883e0bc.chunk.css",
+    "main.js": "/LatteaKa/static/js/main.581238f3.chunk.js",
+    "main.js.map": "/LatteaKa/static/js/main.581238f3.chunk.js.map",
     "runtime-main.js": "/LatteaKa/static/js/runtime-main.fc7cafdf.js",
     "runtime-main.js.map": "/LatteaKa/static/js/runtime-main.fc7cafdf.js.map",
     "static/css/2.59496a39.chunk.css": "/LatteaKa/static/css/2.59496a39.chunk.css",
-    "static/js/2.147b31d0.chunk.js": "/LatteaKa/static/js/2.147b31d0.chunk.js",
-    "static/js/2.147b31d0.chunk.js.map": "/LatteaKa/static/js/2.147b31d0.chunk.js.map",
+    "static/js/2.b0682af9.chunk.js": "/LatteaKa/static/js/2.b0682af9.chunk.js",
+    "static/js/2.b0682af9.chunk.js.map": "/LatteaKa/static/js/2.b0682af9.chunk.js.map",
     "index.html": "/LatteaKa/index.html",
-    "precache-manifest.5fccd863a61235ac09082ae9c35cc289.js": "/LatteaKa/precache-manifest.5fccd863a61235ac09082ae9c35cc289.js",
+    "precache-manifest.7edef8782fd933d0ced4333a912df7a5.js": "/LatteaKa/precache-manifest.7edef8782fd933d0ced4333a912df7a5.js",
     "service-worker.js": "/LatteaKa/service-worker.js",
     "static/css/2.59496a39.chunk.css.map": "/LatteaKa/static/css/2.59496a39.chunk.css.map",
-    "static/css/main.a093377d.chunk.css.map": "/LatteaKa/static/css/main.a093377d.chunk.css.map",
-    "static/js/2.147b31d0.chunk.js.LICENSE": "/LatteaKa/static/js/2.147b31d0.chunk.js.LICENSE",
+    "static/css/main.6883e0bc.chunk.css.map": "/LatteaKa/static/css/main.6883e0bc.chunk.css.map",
+    "static/js/2.b0682af9.chunk.js.LICENSE": "/LatteaKa/static/js/2.b0682af9.chunk.js.LICENSE",
     "static/media/styles.css": "/LatteaKa/static/media/toggler-menu.427df52c.svg",
     "static/media/background.png": "/LatteaKa/static/media/background.2ecb4240.png",
     "static/media/background2.png": "/LatteaKa/static/media/background2.71d6bc56.png",
@@ -50,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.fc7cafdf.js",
     "static/css/2.59496a39.chunk.css",
-    "static/js/2.147b31d0.chunk.js",
-    "static/css/main.a093377d.chunk.css",
-    "static/js/main.0a6eedaa.chunk.js"
+    "static/js/2.b0682af9.chunk.js",
+    "static/css/main.6883e0bc.chunk.css",
+    "static/js/main.581238f3.chunk.js"
   ]
 }

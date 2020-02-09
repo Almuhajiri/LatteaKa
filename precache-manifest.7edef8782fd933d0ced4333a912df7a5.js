@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "225df72940ac34d267610de6ee17ea78",
+    "revision": "5c243a4271f818bdb3415220e7383688",
     "url": "/LatteaKa/index.html"
   },
   {
-    "revision": "c652dcf71c982b5d691a",
+    "revision": "74982659841e7c818c23",
     "url": "/LatteaKa/static/css/2.59496a39.chunk.css"
   },
   {
-    "revision": "f1c55d7ccc4faf3a4770",
-    "url": "/LatteaKa/static/css/main.a093377d.chunk.css"
+    "revision": "9d3144697f5d45a137a0",
+    "url": "/LatteaKa/static/css/main.6883e0bc.chunk.css"
   },
   {
-    "revision": "c652dcf71c982b5d691a",
-    "url": "/LatteaKa/static/js/2.147b31d0.chunk.js"
+    "revision": "74982659841e7c818c23",
+    "url": "/LatteaKa/static/js/2.b0682af9.chunk.js"
   },
   {
     "revision": "4d8864c481fc86e012ea6127ad38587f",
-    "url": "/LatteaKa/static/js/2.147b31d0.chunk.js.LICENSE"
+    "url": "/LatteaKa/static/js/2.b0682af9.chunk.js.LICENSE"
   },
   {
-    "revision": "f1c55d7ccc4faf3a4770",
-    "url": "/LatteaKa/static/js/main.0a6eedaa.chunk.js"
+    "revision": "9d3144697f5d45a137a0",
+    "url": "/LatteaKa/static/js/main.581238f3.chunk.js"
   },
   {
     "revision": "40566bef1b41a4fb5e87",
