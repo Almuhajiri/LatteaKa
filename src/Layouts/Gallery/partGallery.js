@@ -15,23 +15,26 @@ export default class PartGallery extends React.Component {
             )
             return (<Row className="mt-5 mb-5">{items}</Row>)
         }
+
         return (
-            <Container className="container-gallery">
-                <Row>
-                    <Col md="12" className="d-block text-center wow animated fadeInUp">
-                        <p className="title">LatteaKa Thai Tea Indonesia</p>
-                    </Col>
-                    <Col md={{ size: 6, offset: 3 }} className="d-block text-center wow animated fadeInUp">
-                        <p className="subtitle">And every beverage is prepared right in front of you, using both modern and traditional brewing methods</p>
-                    </Col>
-                    <Container>
-                        <PartGallery arraysGallery={arraysGallery} />
-                    </Container>
-                    <Col md="12" className="d-block text-center">
-                        <Button title={'See More'} />
-                    </Col>
-                </Row>
-            </Container>
+            <>
+                <Container className="container-gallery">
+                    <Row>
+                        <Col md="12" className="d-block text-center wow animated fadeInUp">
+                            <p className="title">LatteaKa Thai Tea Indonesia</p>
+                        </Col>
+                        <Col md={{ size: 6, offset: 3 }} className="d-block text-center wow animated fadeInUp">
+                            <p className="subtitle">And every beverage is prepared right in front of you, using both modern and traditional brewing methods</p>
+                        </Col>
+                        <Container>
+                            <PartGallery arraysGallery={arraysGallery} />
+                        </Container>
+                        <Col md="12" className="d-block text-center">
+                            <a href="/gallery"><Button title={'See More'} /> </a>
+                        </Col>
+                    </Row>
+                </Container>
+            </>
         )
     }
 }

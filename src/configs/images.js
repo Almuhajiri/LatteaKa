@@ -1,4 +1,6 @@
 const images = {
+    logo: require('../assets/img/logo.png'),
+    profile: require('../assets/img/profile.png'),
     backgroundHeader: require('../assets/img/background.png'),
     backgroundFranchise: require('../assets/img/background2.png'),
     gallery1: require('../assets/img/gallery1.png'),
@@ -41,6 +43,7 @@ const images = {
     facebook: require('../assets/img/facebook.png'),
     instagram: require('../assets/img/instagram.png'),
     twitter: require('../assets/img/twitter.png'),
+    floatButton: require('../assets/img/floatButton.png')
 
 }
 

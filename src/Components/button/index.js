@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { Button } from 'reactstrap'
-import { animateScroll as scroll, scroller } from 'react-scroll'
+// import { animateScroll as scroll, scroller } from 'react-scroll'
 
 import './styles.css'
 
@@ -14,13 +14,13 @@ export default class Component extends React.Component {
         }
     }
 
-    scrollTo() {
-        scroller.scrollTo('scroll-to-element', {
-            duration: 800,
-            delay: 0,
-            smooth: 'easeInOutQuad'
-        })
-    }
+    // scrollTo() {
+    //     scroller.scrollTo('scroll-to-element', {
+    //         duration: 800,
+    //         delay: 0,
+    //         smooth: 'easeInOutQuad'
+    //     })
+    // }
     render() {
         const { title } = this.props
         return (

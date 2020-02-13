@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container, Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap'
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap'
 import $ from 'jquery'
 
 import './styles.css'
@@ -23,7 +23,7 @@ const Component = (props) => {
     });
 
     return (
-        <Container >
+        <>
             <Navbar id="navbar" className="navbar fixed-top navbar-bg-transparent" expand="xl" >
                 {/* <div className="Navbar-Nav"> */}
                 {/* <NavbarBrand href="/">Latte aKa</NavbarBrand> */}
@@ -52,7 +52,7 @@ const Component = (props) => {
                 </Collapse>
                 {/* </div> */}
             </Navbar>
-        </Container >
+        </>
     )
 }
 

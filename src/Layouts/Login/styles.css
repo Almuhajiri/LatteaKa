@@ -1,0 +1,18 @@
+.button-login {
+    background-color: aqua;
+    width: 100%;
+}
+
+.input {
+    height: 50px;
+    border-radius: 30px;
+}
+
+.login-input-form {
+    border-radius: 30px !important;
+    border: 1px solid #DCDCDC !important;
+}
+
+.input-borderless {
+    border: none ;
+}

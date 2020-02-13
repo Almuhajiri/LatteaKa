@@ -1,0 +1,7 @@
+.fixed-action-btn > .btn-floating > .material-icons {
+    transition: transform 0.3s;
+}
+
+.fixed-action-btn.active > .btn-floating > .material-icons {
+    transform: rotate(135deg);
+}

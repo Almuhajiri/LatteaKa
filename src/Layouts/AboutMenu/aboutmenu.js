@@ -37,18 +37,18 @@ export default class AboutMenu extends React.Component {
         function AboutItems(props) {
             const items = props.menus.map((post) =>
                 <div key={post.id} className="about-item-container wow animated fadeInRight">
-                    <img className="img-fluid card-img" style={{ marginBottom: '2rem' }} src={post.img} alt={post.title} />
+                    <img className="img-fluid card-img" src={post.img} alt={post.title} />
                     <p className="card-title text-left">{post.title}</p>
                     <p className="subtitle">{post.description}</p>
                 </div>
             )
-            return (<Row md="2" >{items}</Row>)
+            return (<Row xs="12" md="2" >{items}</Row>)
         }
 
         return (
             <Container fluid={true}>
                 <Row className="about-menu-container">
-                    <Col md={{ size: 3, offset: 1 }} className="wow animated fadeInLeft">
+                    <Col md={{ size: 3, offset: 1 }} className="wow animated fadeInLeft text-center mb-5">
                         <p className="text-brand-landing display">thai tea</p>
                         <p className="title">This is an about page for InterCapital. We sectioned it</p>
                     </Col>

@@ -4,12 +4,14 @@
 }
 
 .about-item-container {
-    padding: 0 10rem;
+    padding: 0 5rem;
 }
 
 @media only screen and (max-width: 767px) {
     .display {
         display: inline;
     }
-    
+    .about-item-container {
+        padding: 0 7rem;
+    }    
 }
