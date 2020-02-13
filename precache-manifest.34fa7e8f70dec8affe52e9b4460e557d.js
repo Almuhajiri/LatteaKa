@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5df34aa5de0cf6ea86482fd1defea0a4",
+    "revision": "937da1e9024fb05a49d6f965de711984",
     "url": "/LatteaKa/index.html"
   },
   {
-    "revision": "2c6fe7986a85724340f7",
-    "url": "/LatteaKa/static/css/2.59496a39.chunk.css"
+    "revision": "4cd76a8cb3ce7687500e",
+    "url": "/LatteaKa/static/css/2.d7790673.chunk.css"
   },
   {
-    "revision": "f600090aedc0683c5aa4",
-    "url": "/LatteaKa/static/css/main.6883e0bc.chunk.css"
+    "revision": "c9f85690b727ea9280f5",
+    "url": "/LatteaKa/static/css/main.df6cba5a.chunk.css"
   },
   {
-    "revision": "2c6fe7986a85724340f7",
-    "url": "/LatteaKa/static/js/2.f54a320b.chunk.js"
+    "revision": "4cd76a8cb3ce7687500e",
+    "url": "/LatteaKa/static/js/2.26c60299.chunk.js"
   },
   {
-    "revision": "4d8864c481fc86e012ea6127ad38587f",
-    "url": "/LatteaKa/static/js/2.f54a320b.chunk.js.LICENSE"
+    "revision": "0581ad3981df665d8638b02898ed609a",
+    "url": "/LatteaKa/static/js/2.26c60299.chunk.js.LICENSE"
   },
   {
-    "revision": "f600090aedc0683c5aa4",
-    "url": "/LatteaKa/static/js/main.21aea2e9.chunk.js"
+    "revision": "c9f85690b727ea9280f5",
+    "url": "/LatteaKa/static/js/main.ce624cc4.chunk.js"
   },
   {
     "revision": "40566bef1b41a4fb5e87",
@@ -56,8 +56,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LatteaKa/static/media/contact.ff2de8b3.png"
   },
   {
+    "revision": "23bd576fcb2a674c7f726f4d939748e4",
+    "url": "/LatteaKa/static/media/delete.23bd576f.svg"
+  },
+  {
+    "revision": "0db898fbea476de3d9259a43548b557a",
+    "url": "/LatteaKa/static/media/edit.0db898fb.svg"
+  },
+  {
+    "revision": "a125a55ea2fe862e55175b644b9f8998",
+    "url": "/LatteaKa/static/media/email.a125a55e.svg"
+  },
+  {
     "revision": "b18228d9c172aafcc0e572b9d44de781",
     "url": "/LatteaKa/static/media/facebook.b18228d9.svg"
+  },
+  {
+    "revision": "534a587defb777b8cf28d631f12f0989",
+    "url": "/LatteaKa/static/media/floatButton.534a587d.png"
   },
   {
     "revision": "d9a683e4d2cfdfebce5295b71218c00a",
@@ -140,6 +156,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LatteaKa/static/media/modal.66ba6f4e.svg"
   },
   {
+    "revision": "9e6d2f6599a8c69fb10ac61b666127db",
+    "url": "/LatteaKa/static/media/password.9e6d2f65.svg"
+  },
+  {
+    "revision": "1f43e5244e50871dd03269ef07c1656b",
+    "url": "/LatteaKa/static/media/passwordHidden.1f43e524.svg"
+  },
+  {
     "revision": "ac14134510d489d28c729ed68a054f5c",
     "url": "/LatteaKa/static/media/poster.ac141345.png"
   },
@@ -162,5 +186,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a608385c923019b802c875028eacad4a",
     "url": "/LatteaKa/static/media/twitter.a608385c.svg"
+  },
+  {
+    "revision": "7a2ca24d6744b0d5505b4b8cd584bc7f",
+    "url": "/LatteaKa/static/media/username.7a2ca24d.svg"
   }
 ]);
