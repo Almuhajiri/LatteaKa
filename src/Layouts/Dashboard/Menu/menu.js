@@ -11,37 +11,47 @@ export default class GuestBook extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            menus: []
+            menus: [],
+            loading: false
         }
     }
 
     componentWillMount() {
+        this.get()
+    }
+
+    get = () => {
+        this.setState({
+            loading: true
+        })
         axios.get('http://3.94.252.36/api/menu/all')
             .then(res => {
                 const menus = res.data;
-                this.setState({ menus });
+                this.setState({
+                    menus,
+                    loading: false
+                });
             })
     }
 
+    tableGuestBook = () => (
+        this.state.menus.map((post) =>
+            <tr>
+                <th>{post.id}</th>
+                <td>{post.title}</td>
+                <td><img src={post.photo} alt={post.title} className="img-fluid" style={{ height: 120, width: 120 }} /></td>
+                <td>{post.description.substring(0, [60]) + '...'}</td>
+                <td>
+                    <div className="d-block">
+                        <a className="m-2" href="/edit"><img src={Edit} alt="Edit" /></a>
+                        <a className="m-2" href="/delete"><img src={Delete} alt="Delete" /></a>
+                    </div>
+                </td>
+            </tr>
+        )
+    )
+
     render() {
-        function TableGuestBook(props) {
-            let i = 1
-            const items = props.menus.map((post) =>
-                <tr>
-                    <th>{i++}</th>
-                    <td>{post.title}</td>
-                    <td>{post.photo.substring(0, [12]) + '...'}</td>
-                    <td>{post.description.substring(0, [60]) + '...'}</td>
-                    <td>
-                        <div className="d-block">
-                            <a className="m-2" href="/edit"><img src={Edit} alt="Edit" /></a>
-                            <a className="m-2" href="/delete"><img src={Delete} alt="Delete" /></a>
-                        </div>
-                    </td>
-                </tr>
-            )
-            return (<tbody>{items}</tbody>)
-        }
         return (
             <>
                 <div className="p-5">
@@ -57,7 +67,12 @@ export default class GuestBook extends React.Component {
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
-                            <TableGuestBook menus={this.state.menus} />
+                            {
+                                this.state.loading ?
+                                    <p>Loading . . .</p>
+                                    :
+                                    this.tableGuestBook()
+                            }
                         </Table>
                     </div>
                     <div className="d-block text-right">

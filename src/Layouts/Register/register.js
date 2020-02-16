@@ -14,7 +14,7 @@ export default class Register extends React.Component {
             <Container fluid={true} className="bg-light">
                 <Row className="vh-100">
                     <Col md="6" className="bg-white">
-                        <Row className="">
+                        <Row className="vh-100 align-items-center">
                             <Col md={{ size: 8, offset: 2 }}>
                                 <div className="">
                                     <p className="title">Get sarted to have new account</p>
@@ -57,10 +57,10 @@ export default class Register extends React.Component {
                                     <div className="pl-4 text-center">
                                         <Label check className="subtitle">
                                             <Input type="checkbox" />{''}
-                                            I agree to LatteAka’s <a href=".">Privacy policy and Terms of service</a>
+                                            I agree to LatteAka’s Privacy policy and Terms of service
                                         </Label>
                                         <div className="pt-4" />
-                                        <Button title="Login" className="button-login" />
+                                        <Button title="Register" className="button-login" />
                                         <div className="pt-3" />
                                         <p className="subtitle">Alredy have account? <a href="/login">Log In</a></p>
                                     </div>

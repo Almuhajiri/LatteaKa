@@ -12,36 +12,47 @@ export default class Login extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: '',
-            password: ''
+            playload: {
+                name: '',
+                password: ''
+            },
+            respons: '',
         }
+        this.handleInput = this.handleInput.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
     }
 
-    handleChange = event => {
-        this.setState({ name: event.target.value });
+    handleInput(name, value) {
+        this.setState(prevState => ({
+            payload: {
+                ...prevState.payload,
+                [name]: value,
+            },
+        }));
     }
 
-    handleSubmit = event => {
-        event.preventDefault();
-
-        const user = {
-            name: this.state.name
+    handleSubmit() {
+        let payload = {
+            ...this.state.payload,
         };
-
-        axios.post(`http://3.94.252.36/api/login`, { user })
-            .then(res => {
-                console.log(res);
-                console.log(res.data);
+        axios
+            .post('http://3.94.252.36/api/login', payload)
+            .then(response => {
+                if (response.status === 200) {
+                    return (
+                        <link to='/admin'></link>
+                    );
+                }
             })
+            .catch(err => console.log(err));
     }
-
 
     render() {
         return (
             <Container fluid={true} className="bg-light">
-                <Row className="align-items-center">
+                <Row className="vh-100">
                     <Col md="6" className="bg-white">
-                        <Row className="vh-100" >
+                        <Row className="vh-100 align-items-center" >
                             <Col className="" md={{ size: 8, offset: 2 }}>
                                 <div className="pt-5 pb-5">
                                     <p className="title">Welcome Back</p>
@@ -51,14 +62,23 @@ export default class Login extends React.Component {
                                         <InputGroupAddon addonType="prepend" >
                                             <InputGroupText className="bg-transparent input-borderless ml-3 mr-3" ><img src={Email} alt="." /></InputGroupText>
                                         </InputGroupAddon>
-                                        <Input className="input input-borderless" type="email" name="email" onChange="" placeholder="Email" />
+                                        <Input
+                                            className="input input-borderless"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Email" />
                                     </InputGroup>
                                     <br />
                                     <InputGroup className="login-input-form">
                                         <InputGroupAddon addonType="prepend">
                                             <InputGroupText className="bg-transparent input-borderless ml-3 mr-3" ><img src={Password} alt="." /></InputGroupText>
                                         </InputGroupAddon>
-                                        <Input className="input input-borderless" type="password" name="password" placeholder="Password" />
+                                        <Input
+                                            className="input input-borderless"
+                                            type="password"
+                                            name="password"
+                                            placeholder="Password"
+                                        />
                                         <InputGroupAddon addonType="append" >
                                             <InputGroupText className="bg-transparent input-borderless mr-3 ml-3" ><img src={PasswordHidden} alt="." /></InputGroupText>
                                         </InputGroupAddon>
@@ -72,7 +92,9 @@ export default class Login extends React.Component {
                                     </div>
                                     <br />
                                     <div className="text-center">
-                                        <a href="/dashboard"><Button title="Login" className="button-login" /></a>
+                                        <a href="/admin" ><Button title="Login" className="button-login" /></a>
+                                        <div className="pt-3" />
+                                        <p className="subtitle">Ga punya akun? <a href="/login">Daftar</a></p>
                                     </div>
                                 </div>
                             </Col>

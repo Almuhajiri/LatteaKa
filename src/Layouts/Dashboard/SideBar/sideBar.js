@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
     Nav,
+    Navbar,
     NavItem,
-    NavLink
+    NavLink,
+    Collapse,
+    NavbarBrand,
+    NavbarToggler
 } from 'reactstrap'
 import $ from 'jquery'
 
@@ -47,40 +47,3 @@ const SideBar = (props) => {
 }
 
 export default SideBar
-
-// import React, { Component } from 'react'
-// import { Navbar, Nav, NavItem, Button, Glyphicon } from 'react-bootstrap'
-// import Sidebar from 'react-bootstrap-sidebar'
-
-
-
-// export default class SideBar extends Component {
-
-//     constructor(props) {
-//         super(props)
-//         this.state = {
-//             isVisible: false,
-//         }
-//     }
-
-//     updateModal(isVisible) {
-//         this.state.isVisible = isVisible
-//         this.forceUpdate()
-//     }
-
-//     render() {
-//         return (
-//             <div>
-//                 <Button bsStyle="primary" onClick={() => this.updateModal(true)}><Glyphicon glyph="menu-hamburger" /></Button>
-//                 <Sidebar side='left' isVisible={this.state.isVisible} onHide={() => this.updateModal(false)}>
-//                     <Nav>
-//                         <NavItem href="#">Link 1</NavItem>
-//                         <NavItem href="#">Link 2</NavItem>
-//                         <NavItem href="#">Link 3</NavItem>
-//                         <NavItem href="#">Link 4</NavItem>
-//                     </Nav>
-//                 </Sidebar>
-//             </div>
-//         )
-//     }
-// }
