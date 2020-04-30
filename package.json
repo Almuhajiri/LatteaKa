@@ -11,7 +11,7 @@
     "animate.css": "^3.7.2",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-bootstrap-sidebar": "0.0.1",
